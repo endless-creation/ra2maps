@@ -1,0 +1,9 @@
+
+# Map Previews
+*.txt
+*.png
+*.jpg
+*.pcx
+
+# Final Map File
+*.map

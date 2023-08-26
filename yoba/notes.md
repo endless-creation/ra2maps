@@ -23,9 +23,16 @@
     - Towers now generate .75 Oil Derricks worth of cash `15 cash per 100 ticks`
     - Removed oil derricks nearest the center of each lane
     - Each player gets 1.5 Oil Derricks worth of cash as a baseline `30 cash per 100 ticks`
+    - Yuri Miner Slave harvest reload time increased from `75` to `125` (vanilla is `150`)
+    - Yuri Miner Slave storage decreased from `8` to `4` (vanilla is `4`)
+
+
 - Turrets
     - Strength increased from `5000` => `7000` HP
     - Reload time decreased from `100` => `85` ticks
 - Jungle
     - Disk strength increased from `2000` => `3000` HP
     - Yuri Head strength increased from `6000` => `7000` HP
+
+- Bugfixes
+    - Fixed a bug where players aren't able to build war factory

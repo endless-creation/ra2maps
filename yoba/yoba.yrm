@@ -3427,6 +3427,7 @@ TechLevel=-1
 
 [General]
 IronCurtainInvokeAnim=FORCSHLD
+PrerequisiteProc=GAPILE,NAHAND
 
 [Germans]
 IQ=0
@@ -7621,9 +7622,8 @@ TechLevel=-1
 
 [SLAV]
 Speed=6
-Storage=8
 Strength=250
-HarvestRate=75
+HarvestRate=125
 
 [SMIN]
 Cost=650
