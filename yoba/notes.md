@@ -29,10 +29,12 @@
 
 - Turrets
     - Strength increased from `5000` => `7000` HP
-    - Reload time decreased from `100` => `85` ticks
+    - Reload time decreased from `100` => `80` ticks
 - Jungle
     - Disk strength increased from `2000` => `3000` HP
     - Yuri Head strength increased from `6000` => `7000` HP
 
 - Bugfixes
     - Fixed a bug where players aren't able to build war factory
+    - Fixed creep pathing in lanes; will no longer bypass towers
+    - Removed several scripts to improve performance
