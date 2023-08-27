@@ -38,3 +38,20 @@
     - Fixed a bug where players aren't able to build war factory
     - Fixed creep pathing in lanes; will no longer bypass towers
     - Removed several scripts to improve performance
+
+### 0.4
+- Turrets
+    - Weapon changed to powerful laser! wowee - Number of shots to destroy:
+        - Infantry: 1
+        - Light Tanks: 1
+        - Heavy Tanks: 2
+        - Creep Wave Tanks: 3
+        - Apocalypse Tanks: 4
+        - Battle Fortress: 3
+        - Chrono/War Miner: 6
+        - Yminers: 11
+
+- Other
+    - Added mission timer for Yuri/Baron (YARON) spawn
+    - Fixed ore in bottom lane
+    - Added a message when player Yminer respawns
