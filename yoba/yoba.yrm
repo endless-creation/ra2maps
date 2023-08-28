@@ -1298,10 +1298,6 @@ Projectile=Cannon
 0ECCFA7C-G=yes
 0ECCFCAC-G=yes
 
-[AMRADR]
-TechLevel=-1
-Prerequisite=GAPILE,GACNST
-
 [Actions]
 01000000=1,109,0,0,0,0,0,0,P
 01000001=1,14,0,4478,0,0,0,0,A
@@ -2311,7 +2307,11 @@ PlayerControl=no
 
 [GAAIRC]
 Prerequisite=GAPILE,GACNST
-ForbiddenHouses=Russians,Confederation,Africans,Arabs
+
+[AMRADR]
+SuperWeapon=<none>
+Prerequisite=GAPILE,GACNST
+
 
 [GACSPH]
 TechLevel=-1
