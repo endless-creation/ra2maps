@@ -55,3 +55,26 @@
     - Added mission timer for Yuri/Baron (YARON) spawn
     - Fixed ore in bottom lane
     - Added a message when player Yminer respawns
+
+### 0.5
+- Turrets
+    - Weapon reload time increased from `80` => `90` ticks
+
+- Units
+    - Howitzer
+        - Soviets can now build the howitzer to aid in long distance poking, in lieu
+          of siege choppers
+        - Light armor, 200 HP
+        - 75 damage, 12 range (2 more than a prism tank, 1 less than a turret)
+    - All allies can now build Sniper and Tank Destroyers
+    - All soviets can now build Desolator, Tesla Tank, Terrorist, Demo Truck
+    - American Paradrop removed from the game
+
+
+- Fixes
+    - Removed ability to spy Yuri Battle Lab
+    - Removed ability to make Barracks at start of game
+
+- Minor adjustments
+    - Relocated ore and oil in middle lane
+    - Moved campfire locations in jungle spawns to make crate pickups easier
