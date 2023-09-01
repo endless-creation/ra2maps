@@ -1,5 +1,5 @@
 # [YOBA] Yuri's Online Battle Arena
-- Current version: `0.5`
+- Current version: `0.6`
 
 ## Rules
 - Push down the lanes and destroy the enemy nexus to win
@@ -7,7 +7,9 @@
 - Jungle camps (neutral enemies) that drop rewards and respawn on a timer
 - The jungle is covered in shroud
 - You get one Yuri miner to mine Ore; it has increased strength, speed, and firepower, and can mine faster. it respawns in base when destroyed, after a  modest delay
-- Creep waves that spawn on a timer in each lane and attack the enemy base
+- Creep waves that spawn on a timer in each lane and attack the enemy base. They can NOT
+  be controlled by players.  You can tell which units are controlled by AI because they
+  are Yuri faction units only.
 - Destroy the enemy inhibitors to stop your opponent's creep waves
 - Inhibitors are invulnerable until all towers in the lane are destroyed
 - The nexus is invulnerable until at least one inhibitor is destroyed
@@ -19,6 +21,10 @@
 
 
 ## Tips
+- Turrets are strong! Do not attempt to fight another army under an enemy turret, you
+  will lose most of your units.
+- Turrets can NOT be repaired.  Slowly chip away at them when they are undefended.
+- Use your friendly creep waves as fodder when attacking turrets.
 - Use your Yminer to get ore.  It also is a strong combat unit. Try to balance resource
   gathering with using it in a push
 - Your Yminer can tank a lot of turret shots.  You can use it to absorb the damage while
@@ -31,6 +37,28 @@
 - Use the shroud to your advantage, hide your units to deny your opponent information
 
 ## Patch Notes
+
+### 0.6
+- Turrets
+    - Weapon reload time increased from `90` => `100` ticks
+    - Range reduced from `13` to `12`
+    - Spread increased from up to `15` units to `21` units
+    - Spread damage against infantry doubled
+    - Spread damage against light armor reduced from `75%` to `45%`
+    - Spread damage against medium/heavy armor reduced from `50%` to `30%`
+
+- Jungle
+    - YuriBaron now drops 2 cash crates and 2 boomers instead of 4 boomers
+
+- Creep Waves
+    - Added 2 additional Lasher Tanks and 1 Gattling Tesla to each wave
+    - Reduced spawn delay from `300` to `200`
+    - Increased speed of lasher tank from `7` to `8`
+    - Decreased speed of Gattling Tesla from `6` to `5`
+
+- Other
+    - Reduced delay of initial Yminer spawn
+
 
 ### 0.5
 - Turrets
