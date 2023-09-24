@@ -1,5 +1,5 @@
 # [YOBA] Yuri's Online Battle Arena
-- Current version: `0.6`
+- Current version: `0.7`
 
 ## Rules
 - Push down the lanes and destroy the enemy nexus to win
