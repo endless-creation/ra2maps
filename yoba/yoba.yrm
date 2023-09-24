@@ -31,6 +31,7 @@ Group=-1
 3=16,94
 4=16,100
 5=16,20
+6=1,92
 Name=Red Mid Creep Attack
 
 [01000007]
@@ -74,6 +75,7 @@ AreTeamMembersRecruitable=no
 3=16,95
 4=16,103
 5=16,56
+6=1,91
 Name=Blue Mid Creep Attack
 
 [01000015]
@@ -862,6 +864,7 @@ AreTeamMembersRecruitable=no
 3=16,98
 4=16,101
 5=16,20
+6=1,92
 Name=Red Bot Creep Attack
 
 [01000140]
@@ -871,6 +874,7 @@ Name=Red Bot Creep Attack
 3=16,97
 4=16,102
 5=16,20
+6=1,92
 Name=Red Top Creep Attack
 
 [01000141]
@@ -880,6 +884,7 @@ Name=Red Top Creep Attack
 3=16,99
 4=16,17
 5=16,56
+6=1,91
 Name=Blue Bot Creep Attack
 
 [01000142]
@@ -889,6 +894,7 @@ Name=Blue Bot Creep Attack
 3=16,96
 4=16,10
 5=16,56
+6=1,91
 Name=Blue Top Creep Attack
 
 [01000169]
@@ -2011,7 +2017,7 @@ Underwater=no
 MovementZone=Amphibious
 
 [Basic]
-Name=[8] Yuris Online Battle Arena (YOBA) 0.6
+Name=[8] Yuris Online Battle Arena (YOBA) 0.7
 Author=endless
 Percent=0
 Briefing=- ENABLE AUTO-ALLYING@- Destroy the enemy Nexus to win@- Creep waves spawn on timer, destroy Inhibitors to stop@  the spawn timer@- At least one Inhibitor must be destroyed to make the@  Nexus vulnerable@- Inhibitors invulnerable until 3 lane towers destroyed@- Hunt neutral units in the Jungle for rewards
@@ -2134,7 +2140,7 @@ Armor=heavy
 Image=YTNK
 Owner=Russians,Confederation,Africans,Arabs
 Sight=8
-Speed=5
+Speed=6
 Points=25
 Turret=yes
 UIName=Name:GattTank
@@ -2300,7 +2306,7 @@ Insignificant=no
 01000232=1,8,0,0
 
 [FA2spVersionControl]
-Version=1612
+Version=1614
 
 [French]
 IQ=0
@@ -15238,7 +15244,7 @@ Projectile=Cannon
 17=50145
 18=119083
 19=117082
-20=238128
+20=209124
 21=101155
 22=101161
 23=91143
@@ -15274,7 +15280,7 @@ Projectile=Cannon
 53=118086
 54=128166
 55=131165
-56=17127
+56=40124
 57=214121
 58=40125
 59=131167
@@ -15524,4 +15530,4 @@ LaserDuration=15
 LaserOuterSpread=0,0,0
 
 [Digest]
-1=8/O+8ixDZZsrZnl0Q8uYKdKMEuc=
+1=4hcssEGX6JBwTJ5jD/cowkEXVsA=

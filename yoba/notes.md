@@ -38,6 +38,12 @@
 
 ## Patch Notes
 
+### 0.7
+- Creep Waves
+    - Fixed creep waves suiciding into the enemy fountain.  They will now properly
+      attack the enemy nexus towers and nexus
+    - Increased speed of Gattling Tesla from `5` to `6`
+
 ### 0.6
 - Turrets
     - Weapon reload time increased from `90` => `100` ticks
