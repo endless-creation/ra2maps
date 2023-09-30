@@ -38,6 +38,62 @@
 
 ## Patch Notes
 
+### 0.8
+- Turrets
+    > Turrets are definitely too strong right now.  Eliminating AOE should allow for
+    > fair engagement near a turret and being able to punish the opponent after defeating
+    > their army without getting severely punished in return.
+    - Turrets HP decreased from `7000` => `6000`
+    - AoE removed
+
+- Creeps
+    - Fixed pathing issues
+
+- Battle Labs
+    > This change is intended to delay the end game units a bit and make teching up a
+    > more nuanced tradeoff decision.
+    - Battle Labs cost increased to 5000
+
+- Shroud
+    > Games have been looking pretty campy lately. These changes are intended to allow
+    > scouting of lanes to give players a little more information on whether they can
+    > safely attack the enemy turrets.
+    - Removed off-map spy satellites for all players
+    - Removed gap generators from all lanes
+
+- Jungle
+    > The buff crates are frustrating to play against because you don't know when
+    > your opponents units are buffed or not.
+    - Removed attack/armor/speed crates as drops and replaced with cash
+
+- Units
+    > These changes should give soviets a good option against battle forts and shore up
+    > a seriously lacking ranged response.
+    - Howitzer buffed:
+        - Increased speed from `5` to `6`
+        - Increased rotation speed from `6` to `7`
+        - Increased HP from `200` to `300`
+        - Now has a modified Siege Chopper cannon as primary weapon
+            - Only difference is it does less damage to buildings
+        - Now costs 1600
+
+- Economy/Neutral buildings
+    > It wasn't clear to players where their income was coming from.  These changes are
+    > meant to make it explicit.
+    - Removed income from towers
+    - Removed machine shops from map
+    - Removed pyschic radars
+    - Each player now gets 6 oils with varying amounts of safety
+
+- Map
+    > Expanding the map to put bases behind the main nexus area.  Players losing the 
+    > inhibitor and inhibitor turret shouldn't be double-punished by getting their
+    > base destroyed.  Also making it harder and riskier to build outside
+    > of spawn by removing the ability to build off oil derricks. Players will now need
+    > to move their MCV or build a new one to expand their reach.
+    - Map expanded, player spawns moved behind nexus area
+    - You can no longer build off of Oil Derricks
+
 ### 0.7
 - Creep Waves
     - Fixed creep waves suiciding into the enemy fountain.  They will now properly
