@@ -65,6 +65,7 @@
     > The buff crates are frustrating to play against because you don't know when
     > your opponents units are buffed or not.
     - Removed attack/armor/speed crates as drops and replaced with cash
+    - Fixed random projectile collisions at various camps on invis lamps
 
 - Units
     > These changes should give soviets a good option against battle forts and shore up

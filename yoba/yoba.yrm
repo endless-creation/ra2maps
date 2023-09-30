@@ -2025,7 +2025,7 @@ Underwater=no
 MovementZone=Amphibious
 
 [Basic]
-Name=[8] Yuris Online Battle Arena (YOBA) 0.7a
+Name=[8] Yuris Online Battle Arena (YOBA) 0.8
 Author=endless
 Percent=0
 Briefing=- ENABLE AUTO-ALLYING@- Destroy the enemy Nexus to win@- Creep waves spawn on timer, destroy Inhibitors to stop@  the spawn timer@- At least one Inhibitor must be destroyed to make the@  Nexus vulnerable@- Inhibitors invulnerable until 3 lane towers destroyed@- Hunt neutral units in the Jungle for rewards
@@ -2316,7 +2316,7 @@ Insignificant=no
 01000232=1,8,0,0
 
 [FA2spVersionControl]
-Version=1996
+Version=2000
 
 [French]
 IQ=0
@@ -2399,7 +2399,6 @@ PercentBuilt=0
 PlayerControl=no
 
 [HOWI]
-ThreatPosed=5
 ROT=7
 Cost=1600
 Owner=Russians,Confederation,Africans,Arabs
@@ -2408,6 +2407,7 @@ Primary=160mm
 Strength=300
 TechLevel=7
 VoiceMove=GenSovVehicleMove
+ThreatPosed=5
 VoiceAttack=GenSovVehicleAttackCommand
 VoiceSelect=GenSovVehicleSelect
 ElitePrimary=160mmE
@@ -8822,7 +8822,7 @@ DestroyableBridges=yes
 154=Neutral,INGRNLMP,256,201,201,0,None,1,0,1,0,0,None,None,None,0,0
 155=Neutral,INGRNLMP,256,209,202,0,None,1,0,1,0,0,None,None,None,0,0
 156=Neutral,INGRNLMP,256,213,199,0,None,1,0,1,0,0,None,None,None,0,0
-157=Neutral,INGRNLMP,256,210,193,0,None,1,0,1,0,0,None,None,None,0,0
+157=Neutral,INGRNLMP,256,208,191,0,None,1,0,1,0,0,None,None,None,0,0
 158=Neutral,INGRNLMP,256,215,193,0,None,1,0,1,0,0,None,None,None,0,0
 159=Neutral,INGRNLMP,256,218,188,0,None,1,0,1,0,0,None,None,None,0,0
 160=Neutral,INGRNLMP,256,221,183,0,None,1,0,1,0,0,None,None,None,0,0
@@ -8835,7 +8835,7 @@ DestroyableBridges=yes
 167=Neutral,INGRNLMP,256,205,185,0,None,1,0,1,0,0,None,None,None,0,0
 168=Neutral,INGRNLMP,256,202,190,0,None,1,0,1,0,0,None,None,None,0,0
 169=Neutral,INGRNLMP,256,197,195,0,None,1,0,1,0,0,None,None,None,0,0
-170=Neutral,INGRNLMP,256,194,187,0,None,1,0,1,0,0,None,None,None,0,0
+170=Neutral,INGRNLMP,256,192,183,0,None,1,0,1,0,0,None,None,None,0,0
 171=Neutral,INGRNLMP,256,188,195,0,None,1,0,1,0,0,None,None,None,0,0
 172=Neutral,INGRNLMP,256,183,189,0,None,1,0,1,0,0,None,None,None,0,0
 173=Neutral,INGRNLMP,256,179,193,0,None,1,0,1,0,0,None,None,None,0,0
@@ -8844,7 +8844,7 @@ DestroyableBridges=yes
 176=Neutral,INGRNLMP,256,180,207,0,None,1,0,1,0,0,None,None,None,0,0
 177=Neutral,INGRNLMP,256,189,206,0,None,1,0,1,0,0,None,None,None,0,0
 178=Neutral,INGRNLMP,256,174,192,0,None,1,0,1,0,0,None,None,None,0,0
-179=Neutral,INGRNLMP,256,178,183,0,None,1,0,1,0,0,None,None,None,0,0
+179=Neutral,INGRNLMP,256,175,181,0,None,1,0,1,0,0,None,None,None,0,0
 180=Neutral,INGRNLMP,256,184,181,0,None,1,0,1,0,0,None,None,None,0,0
 181=Neutral,INGRNLMP,256,187,176,0,None,1,0,1,0,0,None,None,None,0,0
 182=Neutral,INGRNLMP,256,193,174,0,None,1,0,1,0,0,None,None,None,0,0
@@ -8979,10 +8979,14 @@ DestroyableBridges=yes
 311=Neutral,YAGGUN,256,143,281,0,01000092,1,0,1,0,0,None,None,None,0,0
 312=Neutral,YAGGUN,256,140,283,0,01000092,1,0,1,0,0,None,None,None,0,0
 313=Neutral,YAGGUN,256,137,286,0,01000092,1,0,1,0,0,None,None,None,0,0
+314=Neutral,INYELWLAMP,256,135,145,0,None,1,0,1,0,0,None,None,None,0,0
+315=Neutral,INGALITE,256,136,186,0,None,1,0,1,0,0,None,None,None,0,0
+316=Neutral,INGALITE,256,144,196,0,None,1,0,1,0,0,None,None,None,0,0
+317=Neutral,INYELWLAMP,256,123,137,0,None,1,0,1,0,0,None,None,None,0,0
+318=Neutral,INYELWLAMP,256,155,143,0,None,1,0,1,0,0,None,None,None,0,0
 356=Neutral,INYELWLAMP,256,156,135,0,None,1,0,1,0,0,None,None,None,0,0
 357=Neutral,INYELWLAMP,256,151,135,0,None,1,0,1,0,0,None,None,None,0,0
 358=Neutral,INYELWLAMP,256,149,139,0,None,1,0,1,0,0,None,None,None,0,0
-359=Neutral,INYELWLAMP,256,153,143,0,None,1,0,1,0,0,None,None,None,0,0
 360=Neutral,INYELWLAMP,256,148,144,0,None,1,0,1,0,0,None,None,None,0,0
 361=Neutral,INYELWLAMP,256,145,148,0,None,1,0,1,0,0,None,None,None,0,0
 362=Neutral,INYELWLAMP,256,143,152,0,None,1,0,1,0,0,None,None,None,0,0
@@ -8993,14 +8997,12 @@ DestroyableBridges=yes
 367=Neutral,INYELWLAMP,256,120,147,0,None,1,0,1,0,0,None,None,None,0,0
 368=Neutral,INYELWLAMP,256,128,139,0,None,1,0,1,0,0,None,None,None,0,0
 369=Neutral,INYELWLAMP,256,132,136,0,None,1,0,1,0,0,None,None,None,0,0
-370=Neutral,INYELWLAMP,256,135,142,0,None,1,0,1,0,0,None,None,None,0,0
 371=Neutral,INYELWLAMP,256,137,135,0,None,1,0,1,0,0,None,None,None,0,0
 372=Neutral,INYELWLAMP,256,143,134,0,None,1,0,1,0,0,None,None,None,0,0
 373=Neutral,INYELWLAMP,256,132,131,0,None,1,0,1,0,0,None,None,None,0,0
 374=Neutral,INYELWLAMP,256,131,125,0,None,1,0,1,0,0,None,None,None,0,0
 375=Neutral,INYELWLAMP,256,126,125,0,None,1,0,1,0,0,None,None,None,0,0
 376=Neutral,INYELWLAMP,256,120,128,0,None,1,0,1,0,0,None,None,None,0,0
-377=Neutral,INYELWLAMP,256,120,133,0,None,1,0,1,0,0,None,None,None,0,0
 378=Neutral,INYELWLAMP,256,115,135,0,None,1,0,1,0,0,None,None,None,0,0
 379=Neutral,INYELWLAMP,256,114,139,0,None,1,0,1,0,0,None,None,None,0,0
 380=Neutral,INYELWLAMP,256,111,145,0,None,1,0,1,0,0,None,None,None,0,0
@@ -9034,7 +9036,6 @@ DestroyableBridges=yes
 409=Neutral,INGALITE,256,138,195,0,None,1,0,1,0,0,None,None,None,0,0
 410=Neutral,INGALITE,256,135,198,0,None,1,0,1,0,0,None,None,None,0,0
 411=Neutral,INGALITE,256,142,203,0,None,1,0,1,0,0,None,None,None,0,0
-412=Neutral,INGALITE,256,146,199,0,None,1,0,1,0,0,None,None,None,0,0
 413=Neutral,INGALITE,256,150,203,0,None,1,0,1,0,0,None,None,None,0,0
 414=Neutral,INGALITE,256,138,211,0,None,1,0,1,0,0,None,None,None,0,0
 415=Neutral,INGALITE,256,133,206,0,None,1,0,1,0,0,None,None,None,0,0
@@ -9042,7 +9043,6 @@ DestroyableBridges=yes
 417=Neutral,INGALITE,256,129,197,0,None,1,0,1,0,0,None,None,None,0,0
 418=Neutral,INGALITE,256,124,195,0,None,1,0,1,0,0,None,None,None,0,0
 419=Neutral,INGALITE,256,128,190,0,None,1,0,1,0,0,None,None,None,0,0
-420=Neutral,INGALITE,256,133,188,0,None,1,0,1,0,0,None,None,None,0,0
 421=Neutral,INGALITE,256,126,185,0,None,1,0,1,0,0,None,None,None,0,0
 422=Neutral,INGALITE,256,121,182,0,None,1,0,1,0,0,None,None,None,0,0
 423=Neutral,INGALITE,256,117,185,0,None,1,0,1,0,0,None,None,None,0,0
@@ -18967,4 +18967,4 @@ LaserDuration=25
 LaserOuterSpread=0,0,0
 
 [Digest]
-1=qrBoRC2584/Y9WWA+B/0+OopHO8=
+1=tdL+vs1xfenhDEc4TFvYRqxyOzY=
