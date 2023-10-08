@@ -7,3 +7,6 @@
 
 # Final Map File
 *.map
+
+# other
+*.ini

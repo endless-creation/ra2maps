@@ -38,6 +38,27 @@
 
 ## Patch Notes
 
+### 0.9
+- Map
+    - Map size has been reverted to the smaller size in version 0.7
+    - Player positions changed back to the same positions as before
+    - Fix projectiles colliding with invisible lamp posts in some locations
+
+- Jungle
+    - Dragon changed to custom Mastermind with explosive projectile weapon
+      (no mind control)
+
+- Force Shield
+    - Recharge time increased from `5` to `12`
+
+- Neutral Buildings
+    - Machine shops added for all players, pre-captured
+    - Oil derricks adjusted
+        - Each player gets 5
+            - 2 in base
+            - 1 in lane
+            - 2 in jungle
+
 ### 0.8
 - Turrets
     > Turrets are definitely too strong right now.  Eliminating AOE should allow for
