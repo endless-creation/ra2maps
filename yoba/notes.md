@@ -39,25 +39,71 @@
 ## Patch Notes
 
 ### 0.9
+- Units
+    > Units and battles are looking a little one-dimensional so let's spice things up a
+    > bit.
+    - Air Units Enabled
+        - Rocketeer
+        - Black Eagle
+        - Siege Chopper
+        - Black Hawk
+
 - Map
-    - Map size has been reverted to the smaller size in version 0.7
+    > The bigger map protects the players' main base from being destroyed, but puts
+    > them much farther from the front lines and makes it harder to defend the final
+    > nexus push of the opponent.  Also the opponent misses out on the joy of base
+    > destruction.  Also-also the map preview radar and preview thumbnail in general
+    > were not A E S T H E T I C A L L Y pleasing.
+    - Map size has been reverted to the smaller (original) size in version 0.7
     - Player positions changed back to the same positions as before
     - Fix projectiles colliding with invisible lamp posts in some locations
 
 - Jungle
+    > Fix some undesirable issues with jungle
     - Dragon changed to custom Mastermind with explosive projectile weapon
       (no mind control)
+    - All jungle units have anti-air
+    - Tank-like jungle units can no longer be crushed by Battle Fortresses
 
 - Force Shield
+    > Force shield on turrets is a little too strong, will keep looking at this to see
+    > how it plays.
     - Recharge time increased from `5` to `12`
 
+- Turrets
+    > You better heed this warning.
+    - All turrets can now attack air units. They hit like a truck and will obliterate
+      units that are stacked together.
+
+- Creep Waves
+    > The creep waves that patrol down lanes are a source of framerate lag. In order
+    > to improve performance, the number of patrolling units in each wave is being
+    > reduced from 6 to 4.  The stats of the individual units are buffed to keep the
+    > overall strength of the wave about the same.
+    - Reduced number of Lashers Tanks from `4` to `3`
+    - Reduced number of Gatling Tanks from `2` to `1`
+    - Gatling Tank buffed:
+        - Reload delay decreased from `75` to `60`
+        - Damange increased from `135` to `216`
+        - Strength increased from `300` to `600`
+    - Lasher Tank buffed:
+        - Damange increased from `20` to `26`
+        - Strength increased from `600` to `800`
+
+- Performance
+    > YOBA needs more FPS
+    - Removed several buildings that can cause framerate lag
+    - Removed initial movement scripts for jungle camps
+
 - Neutral Buildings
+    > Giving the jungle a stronger strategic value
     - Machine shops added for all players, pre-captured
     - Oil derricks adjusted
         - Each player gets 5
             - 2 in base
             - 1 in lane
             - 2 in jungle
+        - Death explosion removed (I won't allow you to destroy my precious trees)
 
 ### 0.8
 - Turrets
