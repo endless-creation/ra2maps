@@ -89,6 +89,7 @@
     - Lasher Tank buffed:
         - Damange increased from `20` to `26`
         - Strength increased from `600` to `800`
+    - Prevent players from building on creep wave patrol waypoints
 
 - Performance
     > YOBA needs more FPS
