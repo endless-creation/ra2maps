@@ -1,12 +1,12 @@
 # [YOBA] Yuri's Online Battle Arena
-- Current version: `0.7`
+- Current version: `0.8`
 
 ## Rules
 - Push down the lanes and destroy the enemy nexus to win
 - Fully functional towers featuring the visage of Yuri! They hurt!
 - Jungle camps (neutral enemies) that drop rewards and respawn on a timer
 - The jungle is covered in shroud
-- You get one Yuri miner to mine Ore; it has increased strength, speed, and firepower, and can mine faster. it respawns in base when destroyed, after a  modest delay
+- Allied/Soviet ore refineries are disabled, but each faction can build Yuri Ore Refinery instead
 - Creep waves that spawn on a timer in each lane and attack the enemy base. They can NOT
   be controlled by players.  You can tell which units are controlled by AI because they
   are Yuri faction units only.
@@ -14,10 +14,9 @@
 - Inhibitors are invulnerable until all towers in the lane are destroyed
 - The nexus is invulnerable until at least one inhibitor is destroyed
 - Elite bosses that will give you yuge rewards
-- No superweapons, No Yuri faction, No France, No Korea, No Flying Units (except Kirov), No Ore Refineries
-- Allies get Snipers and Tank Destroyers
+- No superweapons, No Yuri faction, No France
+- Allies get all special allied units (except Grand Cannon)
 - Soviets get all special soviet units
-- Soviets get the Howitzer artillery unit
 
 
 ## Tips
@@ -25,15 +24,9 @@
   will lose most of your units.
 - Turrets can NOT be repaired.  Slowly chip away at them when they are undefended.
 - Use your friendly creep waves as fodder when attacking turrets.
-- Use your Yminer to get ore.  It also is a strong combat unit. Try to balance resource
-  gathering with using it in a push
-- Your Yminer can tank a lot of turret shots.  You can use it to absorb the damage while
-  your other units take down the turret.
 - Use scouts in the jungle to keep tabs on enemy movement
 - Attack your opponent through the jungle from different angles, denying their
   resources and vision
-- The radars in the "river" (middle of the map) provide a huge radius, larger than
-  vanilla YR
 - Use the shroud to your advantage, hide your units to deny your opponent information
 
 ## Patch Notes
@@ -41,12 +34,18 @@
 ### 0.9
 - Units
     > Units and battles are looking a little one-dimensional so let's spice things up a
-    > bit.
+    > bit with air units. As the Yuri refinery is easy to misplace and not really being
+    > used as a combat unit, the special changes around this unit/structure are being
+    > removed in favor of the standard usage.
     - Air Units Enabled
         - Rocketeer
         - Black Eagle
         - Siege Chopper
         - Black Hawk
+    - Yuri Ore Refinery now buildable and all combat buffs have been removed. An initial
+      Yuri miner no longer spawns at the start of the game. The Yuri Ore Refinery is now
+      part of the required build path, replacing the Allied/Soviet ore refineries.
+    - Chrono Miner and War Miner disabled
 
 - Map
     > The bigger map protects the players' main base from being destroyed, but puts
@@ -105,6 +104,9 @@
             - 1 in lane
             - 2 in jungle
         - Death explosion removed (I won't allow you to destroy my precious trees)
+
+- Game options
+    - Added several forced options, including the YR Rebalance 2.0 patch being enabled
 
 ### 0.8
 - Turrets
