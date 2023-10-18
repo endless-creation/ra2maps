@@ -1010,13 +1010,9 @@ Prerequisite=PROC,GACNST
 01000062=4,54,2,01000062,0,0,0,0,A,53,2,01000060,0,0,0,0,A,108,0,0,0,0,0,0,V,108,0,14,0,0,0,0,BJ
 01000065=2,54,2,01000029,0,0,0,0,A,54,2,01000173,0,0,0,0,A
 01000068=2,54,2,01000029,0,0,0,0,A,54,2,01000167,0,0,0,0,A
-01000087=3,54,2,01000097,0,0,0,0,A,54,2,01000099,0,0,0,0,A,54,2,01000087,0,0,0,0,A
-01000089=3,53,2,01000097,0,0,0,0,A,53,2,01000099,0,0,0,0,A,54,2,01000089,0,0,0,0,A
 01000091=1,14,0,4479,0,0,0,0,A
 01000093=1,14,0,4480,0,0,0,0,A
 01000095=1,14,0,4481,0,0,0,0,A
-01000097=2,108,0,0,0,0,0,0,AL,53,2,01000087,0,0,0,0,A
-01000099=1,108,0,14,0,0,0,0,AB
 01000106=2,54,2,01000029,0,0,0,0,A,54,2,01000016,0,0,0,0,A
 01000107=1,109,0,0,0,0,0,0,M
 01000167=1,107,1,01000169,0,0,0,0,CM
@@ -1276,7 +1272,6 @@ VoiceSpecialAttack=BruteMove
 IsSelectableCombatant=yes
 PixelSelectionBracketDelta=-8
 AllowedToStartInMultiplayer=no
-
 
 [BLUESENT]
 ROT=5
@@ -1590,7 +1585,6 @@ EliteOccupyWeapon=UCElitePsychicJab
 VoiceSpecialAttack=InitiateMove
 IsSelectableCombatant=yes
 
-
 [BLUEWRAITH]
 ROT=10
 Cost=600
@@ -1673,7 +1667,7 @@ Underwater=no
 MovementZone=Amphibious
 
 [Basic]
-Name=[8] Yuris Online Battle Arena (YOBA) 0.9m
+Name=[8] Yuris Online Battle Arena (YOBA) 0.9.1
 Author=endless
 Percent=0
 Briefing=- ENABLE AUTO-ALLYING@- Destroy the enemy Nexus to win@- Creep waves spawn on timer, destroy Inhibitors to stop@  the spawn timer@- At least one Inhibitor must be destroyed to make the@  Nexus vulnerable@- Inhibitors invulnerable until 3 lane towers destroyed@- Hunt neutral units in the Jungle for rewards
@@ -1903,7 +1897,7 @@ SubjectToElevation=no
 01000013=1,8,0,5
 01000016=1,13,0,200
 01000018=1,13,0,50
-01000022=1,13,0,200
+01000022=1,13,0,360
 01000024=1,61,2,0,REDWOLF
 01000027=1,13,0,50
 01000029=1,13,0,50
@@ -1921,28 +1915,24 @@ SubjectToElevation=no
 01000052=1,61,2,0,REDINHIBTOP
 01000053=1,13,0,50
 01000055=1,8,0,2
-01000060=1,13,0,100
+01000060=1,13,0,720
 01000062=1,61,2,0,REDGOLEM
 01000065=1,61,2,0,BLUEINHIBTOP
 01000068=1,61,2,0,BLUEINHIBBOT
-01000087=1,8,0,0
-01000089=1,8,0,0
 01000091=1,8,0,2
 01000093=1,8,0,4
 01000095=1,8,0,3
-01000097=1,51,0,5
-01000099=1,51,0,5
 01000106=1,61,2,0,BLUEINHIBMID
 01000107=1,13,0,50
 01000167=1,13,0,200
 01000173=1,13,0,200
 01000175=1,13,0,200
 01000177=1,13,0,200
-01000179=1,13,0,200
+01000179=1,13,0,720
 01000181=1,61,2,0,REDWRAITH
-01000183=1,13,0,200
+01000183=1,13,0,360
 01000185=1,61,2,0,REDKRUG
-01000187=1,13,0,200
+01000187=1,13,0,360
 01000190=1,61,2,0,BLUEGOLEM
 01000191=1,29,0,0
 01000193=1,29,0,0
@@ -1951,16 +1941,16 @@ SubjectToElevation=no
 01000197=1,29,0,0
 01000198=1,29,0,0
 01000200=1,29,0,0
-01000201=1,13,0,200
+01000201=1,13,0,720
 01000202=1,29,0,0
 01000204=1,61,2,0,BLUEKRUG
-01000206=1,13,0,200
+01000206=1,13,0,360
 01000208=1,61,2,0,BLUESENT
-01000210=1,13,0,200
+01000210=1,13,0,720
 01000212=1,61,2,0,BLUEWOLF
-01000214=1,13,0,200
+01000214=1,13,0,320
 01000216=1,61,2,0,BLUEWRAITH
-01000218=1,13,0,200
+01000218=1,13,0,320
 01000222=1,13,0,1800
 01000224=1,29,0,0
 01000228=1,13,0,900
@@ -1970,7 +1960,7 @@ SubjectToElevation=no
 01000237=1,13,0,100
 
 [FA2spVersionControl]
-Version=2725
+Version=2726
 
 [ForceShieldSpecial]
 RechargeTime=12
@@ -7226,13 +7216,9 @@ RequiredHouses=Russians,Confederation,Africans,Arabs
 01000064=0,Red Inhib Top Down 1,01000052
 01000066=0,Blue Give to Mid 1,01000013
 01000067=0,Blue Inhib Top Down 1,01000065
-01000088=2,Red Jungle Wraiths Disable Rewards 1,01000087
-01000090=2,Red Jungle Wraiths Enable Rewards 1,01000089
 01000092=0,Blue Give to Nexus 1,01000091
 01000094=0,Blue Give to Top 1,01000093
 01000096=0,Blue Give to Bot 1,01000095
-01000098=2,Red Jungle Wraiths Spawn Cash Crate 1,01000097
-01000100=2,Red Jungle Wraiths Spawn Vet Crate 1,01000099
 01000105=0,Blue Inhib Bot Down 1,01000068
 01000108=2,Blue IC Mid 1,01000107
 01000168=2,Blue Creep Bot Spawn 1,01000167
@@ -14824,13 +14810,9 @@ IsElectricBolt=true
 01000062=Neutral,<none>,Red Jungle Golem Detect Destroyed,1,1,1,1,0
 01000065=Americans,<none>,Blue Inhib Top Down,0,1,1,1,0
 01000068=Americans,<none>,Blue Inhib Bot Down,0,1,1,1,0
-01000087=Americans,<none>,Red Jungle Wraiths Disable Rewards,1,1,1,1,0
-01000089=Americans,<none>,Red Jungle Wraiths Enable Rewards,1,1,1,1,0
 01000091=Americans,<none>,Blue Give to Nexus,0,1,1,1,0
 01000093=Americans,<none>,Blue Give to Top,0,1,1,1,0
 01000095=Americans,<none>,Blue Give to Bot,0,1,1,1,0
-01000097=Americans,<none>,Red Jungle Wraiths Spawn Cash Crate,1,1,1,1,0
-01000099=Americans,<none>,Red Jungle Wraiths Spawn Vet Crate,1,1,1,1,0
 01000106=Americans,<none>,Blue Inhib Mid Down,0,1,1,1,0
 01000107=Americans,<none>,Blue IC Mid,0,1,1,1,0
 01000167=Americans,<none>,Blue Creep Bot Spawn,0,1,1,1,0
@@ -15249,4 +15231,4 @@ LaserDuration=25
 LaserOuterSpread=0,0,0
 
 [Digest]
-1=v671OKVZx+tmEND/ls24hNHsvYo=
+1=VJB5UUPpa+DPzJVkGOAiniP48bc=
