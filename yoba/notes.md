@@ -42,6 +42,7 @@
         - Black Eagle
         - Siege Chopper
         - Black Hawk
+    - Howitzers removed
     - Yuri Ore Refinery now buildable and all combat buffs have been removed. An initial
       Yuri miner no longer spawns at the start of the game. The Yuri Ore Refinery is now
       part of the required build path, replacing the Allied/Soviet ore refineries.
