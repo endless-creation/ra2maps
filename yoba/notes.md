@@ -6,7 +6,7 @@
 - Fully functional towers featuring the visage of Yuri! They hurt!
 - Jungle camps (neutral enemies) that drop rewards and respawn on a timer
 - The jungle is covered in shroud
-- Allied/Soviet ore refineries are disabled, but each faction can build Yuri Ore Refinery instead
+- Allied/Soviet ore refineries cost more and generate cash (110% of an Oil Derrick)
 - Creep waves that spawn on a timer in each lane and attack the enemy base. They can NOT
   be controlled by players.  You can tell which units are controlled by AI because they
   are Yuri faction units only.
@@ -15,8 +15,6 @@
 - The nexus is invulnerable until at least one inhibitor is destroyed
 - Elite bosses that will give you yuge rewards
 - No superweapons, No Yuri faction, No France
-- Allies get all special allied units (except Grand Cannon)
-- Soviets get all special soviet units
 
 
 ## Tips
@@ -30,6 +28,40 @@
 - Use the shroud to your advantage, hide your units to deny your opponent information
 
 ## Patch Notes
+
+### 0.10
+- Economy
+    > Total economic makeover; remove focus on ore mining and increase focus on map
+    > control
+    - Ore removed
+    - Yuri Miners disabled
+    - Soviet and Allied Ore Refineries enabled
+        - No ore miners
+        - Produce cash (`110%` of an Oil Derrick)
+        - Cost increased from `2000` to `2750`
+    - Oil Derricks
+        - Are now invulnerable (can still be captured)
+        - Oil derricks in lanes moved to the jungle to avoid targeting issues with
+          creeps
+        - There are 12 pre-captured oil derricks for each team (3 per player) in the
+          jungle, while 8 are in the base area (2 per player)
+        - New, neutral oil derricks added to the map in contestable areas (8 total)
+
+- Performance
+    > FPS gains
+    - Removed all invisible lamp posts
+    - Removed several gap generators
+    - Removed objects outside of map
+    - Yuri miners probably impacted performance, those are gone now too 👋
+
+- Machine shops can now be built off of
+
+- Other
+    - Widened the choke points in front of the elite jungle bosses to make engagement
+      slightly easier
+    - Faction-specific units are now faction-specific again
+    - Added turrets to the pool area to prevent easy backdoors with paradrop
+    - Oil derrick sight reduced from `6` to `3`
 
 ### 0.9
 - Units
