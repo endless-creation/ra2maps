@@ -29,6 +29,29 @@
 
 ## Patch Notes
 
+### 0.11
+- Economy/Neutral Structures
+    > Making oil derricks destroyable to give a little more counterplay. Oil derricks
+    > will respawn and give $3000 on capture to give the losing team some incentive and
+    > reward to retake control of oil derricks.
+    - Oil derricks
+        - Are now destroyable
+        - Respawn on a timer (after approx 2 creep waves, 1 creep wave for river/corner oils)
+        - Reduced from 5 per player to 2 per player (1 in jungle, 1 in base)
+        - Increased cash per tick to to `50` (up from `20`, overall player gets same amount)
+            - Oils that start out as neutral generate `25`
+        - Increased initial capture reward from `1000` to `3000`
+        - Health increased from `1000` to `2000`
+    - Machine shops
+        - Will now respawn on a timer (after approx 5 creep waves)
+        - Health increased from `800` to `1600`
+
+- Other fixes
+    - Removed random ore left behind from 0.9
+    - Added a label to the YOBA boss timer
+    - Removed Allied Ore Purifier as it no longer serves a purpose
+    - Removed Soviet Industrial Plant to balance the fact that Allies have no Ore Purifier
+
 ### 0.10
 - Economy
     > Total economic makeover; remove focus on ore mining and increase focus on map
