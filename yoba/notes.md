@@ -29,6 +29,27 @@
 
 ## Patch Notes
 
+### 0.12
+- Turrets
+    > Infantry rushes, particularly tesla troopers, are looking too strong.  Adding
+    > AoE damage will limit their effectiveness without making them completely useless.
+    > Having a little more AoE damage should give defenders more of an advantage when
+    > they have a commensurate army size.
+    - Added spread damage - style similar to grand cannon
+        - units in the same tile (e.g. infantry occupying the same tile) will take full
+          damage
+        - units in adjacent tiles take 20% damage
+- Vision
+    > This change is intended to make it easier for teams to recapture their own tech
+    > structures and avoid falling even farther behind when being pushed in.
+    - Shroud is now permanently revealed around tech structures on your team's side of
+      the jungle, regardless of who owns the tech structure or if it has been destroyed
+    - Shroud is now permanently revealed where elite jungle bosses spawn
+- Other
+    - Added missing turret to bottom lane which was deleted in 0.11 - oops :)
+
+
+
 ### 0.11
 - Economy/Neutral Structures
     > Making oil derricks destroyable to give a little more counterplay. Oil derricks
