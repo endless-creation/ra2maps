@@ -1,12 +1,12 @@
 # [YOBA] Yuri's Online Battle Arena
-- Current version: `0.12.0`
+- Current version: `1.1`
 
 ## Rules
 - Push down the lanes and destroy the enemy nexus to win
 - Fully functional towers featuring the visage of Yuri! They hurt!
 - Jungle camps (neutral enemies) that drop rewards and respawn on a timer
 - The jungle is covered in shroud
-- Allied/Soviet ore refineries cost more and generate cash (110% of an Oil Derrick)
+- Ore Refineries disabled, build and capture Oil Derricks to generate more cash
 - Creep waves that spawn on a timer in each lane and attack the enemy base. They can NOT
   be controlled by players.  You can tell which units are controlled by AI because they
   are Yuri faction units only.
@@ -28,6 +28,42 @@
 - Use the shroud to your advantage, hide your units to deny your opponent information
 
 ## Patch Notes
+
+### 1.1
+- Removed Ore Refinery, replaced with buildable Oil Derricks
+    - Cash generation increased from `22` per 100 ticks to `24`
+- Inhibitor Action Reworked
+    - Destroying an inhibitor no longer stops that team's wave from spawning in that lane
+    - When an inhibitor is destroyed, the creep spawn for the team that lost the inhibitor
+      now spawn a STRONGER wave in that lane
+- Defensive Structures
+    - Turrets health increased from `6000` to `12000`
+    - Turret AoE buffed slightly
+         - Spread increased from `1.0` to `1.1` cells
+         - Damage at max spread increased from `0.2` to `0.3`
+    - Buffed tank bunkers, health increased from `1000` to `2500`
+    - Inhibitor turrets removed - inhibitor building now has enhanced turret weapon
+        - More damage
+            - vs light armor - `75%` => `100%`
+            - vs medium armor - `50%` => `75%`
+            - vs heavy armor - `50%` => `75%`
+            - reload time - `90` => `70`
+        - More AoE
+            - Spread - `1.1` => `1.5` cells
+        - More range
+            - `12` => `17`
+        - Also they have `15000` HP
+    - All turrets now have increased rate of fire, reload time decreased from `100` to `90`
+- Jungle
+    - Veterancy crates have a much larger radius
+        - Camps that drop vet crates have a longer cooldown: `720` => `900`
+    - Cash crates now give 1.5x as much cash, on average
+    - Boomer subs buffed bigly
+- Smudges/craters now periodically cleared from the map
+
+### 1.0
+- Converted to a 3v3 map
+    - AI now controls the towers and creep waves (must be added to the lobby in positions 7 and 8)
 
 ### 0.12
 - Turrets
