@@ -2073,6 +2073,63 @@ IsSelectableCombatant=yes
 TooBigToFitUnderBridge=true
 AllowedToStartInMultiplayer=no
 
+[BSUBB2]
+ROT=5
+Cost=2000
+Name=Yuri Boomer
+Size=20
+Armor=heavy
+Image=BSUB
+Naval=no
+Owner=YuriCountry
+Sight=8
+Speed=5
+Crewed=no
+Points=30
+Spawns=CMISL
+Turret=no
+UIName=Name:Boomer
+Weight=4
+Crusher=no
+Primary=CruiseLauncherBoost
+Sensors=yes
+Soylent=2000
+Category=AFV
+DieSound=GenSmallWaterDie
+Strength=2000
+Cloakable=yes
+Explosion=TWLT070,S_BANG48,S_BRNL58,S_CLSN58,S_TUMU60
+FireAngle=64
+Locomotor={4A582742-9839-11d1-B709-00A024DDAFD1}
+MoveSound=BoomerMoveStart
+Secondary=CruiseLauncherBoost
+SpeedType=Hover
+TechLevel=2
+Unnatural=yes
+VoiceMove=BoomerMove
+Underwater=no
+Accelerates=false
+CrateGoodie=yes
+ThreatPosed=20
+VoiceAttack=BoomerAttackWaterCommand
+VoiceSelect=BoomerSelect
+ElitePrimary=CruiseLauncherBoost
+MovementZone=Amphibious
+Prerequisite=YAYARD,RADAR
+SensorsSight=8
+SpawnsNumber=3
+CloakingSpeed=1
+LandTargeting=0
+VoiceFeedback=SubFear
+EliteAbilities=SELF_HEAL,STRONGER,FIREPOWER,ROF
+NavalTargeting=0
+SpawnRegenRate=80
+SpawnReloadRate=0
+VeteranAbilities=STRONGER,FIREPOWER,ROF,SIGHT,FASTER
+TooBigToFitUnderBridge=true
+VoiceSecondaryWeaponAttack=BoomerAttackLandCommand
+AllowedToStartInMultiplayer=no
+
 [BSUBB]
 ROT=5
 Cost=2000
@@ -2109,7 +2166,7 @@ Unnatural=yes
 VoiceMove=BoomerMove
 Underwater=no
 Accelerates=false
-CrateGoodie=no
+CrateGoodie=yes
 ThreatPosed=20
 VoiceAttack=BoomerAttackWaterCommand
 VoiceSelect=BoomerSelect
@@ -2131,7 +2188,7 @@ VoiceSecondaryWeaponAttack=BoomerAttackLandCommand
 AllowedToStartInMultiplayer=no
 
 [Basic]
-Name=[6] Yuris Online Battle Arena (YOBA) 1.1k
+Name=[6] Yuris Online Battle Arena (YOBA) 1.2
 Author=endless
 Percent=0
 Briefing=- ENABLE AUTO-ALLYING - put AI at spots 7 & 8@- Destroy the enemy Nexus to win@- Creep waves spawn on timer in each lane@- Destroy towers in a lane, then the inhibitor,@  then Nexus will be vulnerable@- Hunt neutral units in the Jungle for rewards
@@ -2317,7 +2374,7 @@ VoiceMove=TeslaTankMove
 CrushSound=TankCrush
 Selectable=no
 Accelerates=false
-CrateGoodie=yes
+CrateGoodie=no
 ThreatPosed=5
 VoiceAttack=TeslaTankAttackCommand
 VoiceSelect=TeslaTankSelect
@@ -2338,6 +2395,7 @@ TooBigToFitUnderBridge=true
 AllowedToStartInMultiplayer=no
 
 [CMIN]
+CrateGoodie=no
 TechLevel=-1
 
 [Confederation]
@@ -2354,7 +2412,7 @@ PlayerControl=no
 
 [CrateRules]
 CrateRadius=11.0
-UnitCrateType=BSUBB
+UnitCrateType=none
 
 [CruiseLauncherBoost]
 ROF=50
@@ -2623,7 +2681,8 @@ PlayerControl=no
 TechLevel=-1
 
 [General]
-BuildSpeed=.1
+BuildSpeed=.5
+MultipleFactory=.7
 PrerequisiteProc=GAREFN,NAREFN,YAREFN,NAPSYB
 IronCurtainInvokeAnim=FORCSHLD
 
@@ -2640,6 +2699,7 @@ PercentBuilt=0
 PlayerControl=no
 
 [HARV]
+CrateGoodie=no
 TechLevel=-1
 
 [Header]
@@ -6000,12 +6060,12 @@ Unsellable=yes
 PsychicDetectionRadius=35
 
 [NAPSYB]
-Cost=2750
+Cost=3000
 Name=Player Buildable Oil Derrick
 Armor=Steel
 Image=CAOILD
 Owner=British,French,Germans,Americans,Alliance,Russians,Confederation,Africans,Arabs,YuriCountry
-Power=-50
+Power=-75
 Sight=6
 Crewed=no
 UIName=Name:CAOILD
@@ -6021,7 +6081,7 @@ Warpable=yes
 Explosion=TWLT070,S_BANG48,S_BRNL58,S_CLSN58,S_TUMU60
 MaxDebris=8
 MinDebris=4
-TechLevel=2
+TechLevel=1
 BaseNormal=yes
 Capturable=true
 DebrisAnim=Dbris1sm,Dbris1lg,Dbris4sm,Dbris5sm,Dbris4lg,Dbris7sm,Dbris8sm,Dbris5lg,Dbris4lg
@@ -6040,11 +6100,13 @@ ImmuneToRadBeam=Yes
 ImmuneToPsionics=yes
 ProduceCashDelay=100
 DamageSmokeOffset=220, 390, 150
-ProduceCashAmount=24
+ProduceCashAmount=25
 AIBasePlanningSide=-1
 HasRadialIndicator=false
 ProduceCashStartup=10
 DamageParticleSystems=SparkSys,SmallGreySSys,BigGreySmokeSys
+BuildLimit=12
+BuildTimeMultiplier=0.4
 
 [NARADR]
 Prerequisite=PROC,NACNST
@@ -7044,6 +7106,7 @@ TechLevel=-1
 96=AHAAAggf/+/x//gAcAACCB//7/H/+ABwAAIIH//v8f/4A=
 
 [PCV]
+CrateGoodie=no
 DeploysInto=NACNST
 
 [PDPLANE]
@@ -14869,6 +14932,7 @@ Verses=200%,200%,200%,45%,30%,30%,200%,200%,200%,100%,100%
 AnimList=XGRYSML1,XGRYSML2,EXPLOSML,XGRYMED1,XGRYMED2,EXPLOMED,EXPLOLRG,TWLT070
 
 [VehicleTypes]
+990=BSUBB2
 991=BSUBB
 992=XTURRETF
 993=CCREEP
@@ -15209,6 +15273,27 @@ Projectile=TurretAAP
 IsHouseColor=false
 LaserDuration=25
 LaserOuterSpread=0,0,0
+
+[MGTK]
+CrateGoodie=no
+[SREF]
+CrateGoodie=no
+[BFRT]
+CrateGoodie=no
+[AMCV]
+CrateGoodie=no
+[TNKD]
+CrateGoodie=no
+[V3]
+CrateGoodie=no
+[APOC]
+CrateGoodie=no
+[SMCV]
+CrateGoodie=no
+[TTNK]
+CrateGoodie=no
+[SMIN]
+CrateGoodie=no
 
 [Digest]
 1=5ibM2u0xoraUad2eds3etZKs1Rk=

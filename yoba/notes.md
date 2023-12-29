@@ -1,5 +1,5 @@
 # [YOBA] Yuri's Online Battle Arena
-- Current version: `1.1`
+- Current version: `1.2`
 
 ## Rules
 - Push down the lanes and destroy the enemy nexus to win
@@ -28,6 +28,15 @@
 - Use the shroud to your advantage, hide your units to deny your opponent information
 
 ## Patch Notes
+
+### 1.2
+- Fix boomer sub not spawning from crate
+- Fix build speed
+     - Global build speed now `0.5` (default `0.7`)
+     - Oil derrick build speed multiplier set to `0.4` (default `1.0`)
+- Increased buildable Oil Derrick generation from `24` to `25`
+- Increased buildable Oil Derrick power consumption from `50` to `75`
+- Increased buildable Oil Derrick cost from `2750` to `3000`
 
 ### 1.1
 - Removed Ore Refinery, replaced with buildable Oil Derricks
