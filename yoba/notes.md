@@ -1,5 +1,5 @@
 # [YOBA] Yuri's Online Battle Arena
-- Current version: `1.2`
+- Current version: `1.4`
 
 ## Rules
 - Push down the lanes and destroy the enemy nexus to win
@@ -28,6 +28,27 @@
 - Use the shroud to your advantage, hide your units to deny your opponent information
 
 ## Patch Notes
+
+### 1.4
+- "Comeback" creep waves are now veteran units
+- AI will now auto-repair Inhibitors
+- Prism tank damage against towers/inhibitors/nexus nerfed: `200%` -> `110%`
+- Reduced veteran crate radius from `11` to `6`
+- Increased HP of Nexus from `6000` to `30000`
+- Increased damage of inhibitor towers slightly, slightly increased AoE radius
+- Added additional spread damage to normal turrets
+- Fixed a crash at end of game when players' buildings are destroyed (credit to RAZER)
+- Other
+    - Changed visual explosion of nexus towers
+    - Adjusted point values (for end game screen) for various structures and units
+
+
+### 1.3
+- Increase Nexus turret health from `12000` to `20000`
+- Increase Inhibitor-Turret health from `15000` to `20000`
+- Inhibitor-Turret range decreased from `17` to `16`
+- Inhibitor-Turret weapon reworked to do less damage but greater AoE
+- Nexus turret weapon reworked to do massive single-target damage at greater range
 
 ### 1.2
 - Fix boomer sub not spawning from crate
