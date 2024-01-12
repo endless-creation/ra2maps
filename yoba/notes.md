@@ -31,12 +31,13 @@
 
 ### 1.4
 - "Comeback" creep waves are now veteran units
-- AI will now auto-repair Inhibitors
+- Inhibitors will heal back to 50% health
 - Prism tank damage against towers/inhibitors/nexus nerfed: `200%` -> `110%`
 - Reduced veteran crate radius from `11` to `6`
 - Increased HP of Nexus from `6000` to `30000`
 - Increased damage of inhibitor towers slightly, slightly increased AoE radius
 - Added additional spread damage to normal turrets
+- Increased the range of boomer subs from `22` to `25`
 - Fixed a crash at end of game when players' buildings are destroyed (credit to RAZER)
 - Other
     - Changed visual explosion of nexus towers

@@ -1462,7 +1462,9 @@ Capturable=no
 DebrisAnims=Dbris3sm,Dbris2sm,Dbris3lg,Dbris4lg,Dbris4sm,Dbris6sm,Dbris7lg,Dbris7sm,Dbris8sm,Dbris9lg
 AmbientSound=PsychicAmplifierLoop
 Insignificant=yes
-ClickRepairable=yes
+Repairable=no
+ClickRepairable=no
+SelfHealing=yes
 
 [BLUEINHIBMID]
 Name=Mid Blue Inhibitor
@@ -1489,7 +1491,9 @@ Capturable=no
 DebrisAnims=Dbris3sm,Dbris2sm,Dbris3lg,Dbris4lg,Dbris4sm,Dbris6sm,Dbris7lg,Dbris7sm,Dbris8sm,Dbris9lg
 AmbientSound=PsychicAmplifierLoop
 Insignificant=yes
-ClickRepairable=yes
+Repairable=no
+ClickRepairable=no
+SelfHealing=yes
 
 [BLUEINHIBTOP]
 Name=Top Blue Inhibitor
@@ -1516,7 +1520,9 @@ Capturable=no
 DebrisAnims=Dbris3sm,Dbris2sm,Dbris3lg,Dbris4lg,Dbris4sm,Dbris6sm,Dbris7lg,Dbris7sm,Dbris8sm,Dbris9lg
 AmbientSound=PsychicAmplifierLoop
 Insignificant=yes
-ClickRepairable=yes
+Repairable=no
+ClickRepairable=no
+SelfHealing=yes
 
 [BLUEKRUG]
 Pip=white
@@ -7065,7 +7071,9 @@ Capturable=no
 DebrisAnims=Dbris3sm,Dbris2sm,Dbris3lg,Dbris4lg,Dbris4sm,Dbris6sm,Dbris7lg,Dbris7sm,Dbris8sm,Dbris9lg
 AmbientSound=PsychicAmplifierLoop
 Insignificant=yes
-ClickRepairable=yes
+Repairable=no
+ClickRepairable=no
+SelfHealing=yes
 
 [REDINHIBMID]
 Name=Mid Red Inhibitor
@@ -7092,7 +7100,9 @@ Capturable=no
 DebrisAnims=Dbris3sm,Dbris2sm,Dbris3lg,Dbris4lg,Dbris4sm,Dbris6sm,Dbris7lg,Dbris7sm,Dbris8sm,Dbris9lg
 AmbientSound=PsychicAmplifierLoop
 Insignificant=yes
-ClickRepairable=yes
+Repairable=no
+ClickRepairable=no
+SelfHealing=yes
 
 [REDINHIBTOP]
 Name=Top Red Inhibitor
@@ -7119,7 +7129,9 @@ Capturable=no
 DebrisAnims=Dbris3sm,Dbris2sm,Dbris3lg,Dbris4lg,Dbris4sm,Dbris6sm,Dbris7lg,Dbris7sm,Dbris8sm,Dbris9lg
 AmbientSound=PsychicAmplifierLoop
 Insignificant=yes
-ClickRepairable=yes
+Repairable=no
+ClickRepairable=no
+SelfHealing=yes
 
 [REDKRUG]
 Pip=white
