@@ -1364,7 +1364,7 @@ PlayerControl=no
 01000327=1,8,0,0
 
 [FA2spVersionControl]
-Version=2142
+Version=2143
 
 [ForcedOptions]
 chkRA2Mode=false
@@ -6978,7 +6978,7 @@ DestroyableBridges=yes
 [Triggers]
 01000000=Americans,<none>,Give to North AI (P7),0,1,1,1,0
 01000002=Americans,<none>,Give to South AI (P8),0,1,1,1,0
-01000004=Americans,<none>,Debug: Reveal Map,0,1,1,1,0
+01000004=Americans,<none>,Debug: Reveal Map,1,1,1,1,0
 01000006=Americans,<none>,Alpha: Core Tower North Destroyed,0,1,1,1,0
 01000008=Americans,<none>,Alpha: Core Tower South Destroyed,0,1,1,1,0
 01000010=Special,<none>,Alpha: Create North Node,1,1,1,1,0
@@ -9287,4 +9287,4 @@ ProduceCashAmount=20
 ProduceCashStartup=1000
 
 [Digest]
-1=vmZ5EW1Zpsg1IC6M5mj/JxngxPI=
+1=SBz2lMu6+Q4wHO5Y7YNeDByTDtc=
