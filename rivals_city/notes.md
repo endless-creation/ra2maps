@@ -1,12 +1,12 @@
 # Rivals City
-- Current version: `0.2.0`
+- Current version: `0.3.0`
 
 ## Info / Rules
 - 3v3
 - The map contains 5 control points which can be captured by either team
 - Capturing a point spawns a "node" (Psychic Amplifier) which fires at the enemy Nexus
-  - The node does a small amount of damage over time
-  - The more nodes your team controls, the more damage you will do the the enemy Nexus
+  - The node does a small amount of damage over time to the nexus
+  - The more nodes your team controls, the more damage you will do to the enemy Nexus
 - To capture/control a point:
   - At the start of the match: destroy the enemy team's prism tower
   - When there is already a node there: destroy the enemy node
@@ -20,10 +20,22 @@
   - When the first stage of the nexus is destroyed, the losing team will periodically
     receive reinforcement units for the rest of the match
 - Build speed is increased globally
+- Players can build on controlled points
+- Tech structures will respawn after being destroyed
 
 
 
 ## Patch Notes
+
+### 0.3.1
+- Remove "Reveal all map" trigger actions at end of game
+    - Give each player a spy sat (modded for no power requirement) instead
+- Reduce initial delay of AI reinforcement waves from `1000` to `250`
+
+### 0.3.0
+- Change mirage tank reinforcements to unit crates
+    - Mirage tank spawner creates an internal error if any player is not present
+    - V3, MCVs, and Miners will not drop from crates
 
 ### 0.2.0
 - Fix multiple gap generators being buildable in sidebar
