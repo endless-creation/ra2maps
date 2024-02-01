@@ -1,5 +1,5 @@
 # Rivals City
-- Current version: `0.3.0`
+- Current version: `0.4.0`
 
 ## Info / Rules
 - 3v3
@@ -26,6 +26,12 @@
 
 
 ## Patch Notes
+
+### 0.4.0
+- Add a turret to protect each base
+- Fix double spy sat bug
+- Fix AI gap generators failing to respawn
+- Fix turrets not shooting at air units
 
 ### 0.3.1
 - Remove "Reveal all map" trigger actions at end of game
