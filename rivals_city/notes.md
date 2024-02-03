@@ -27,6 +27,32 @@
 
 ## Patch Notes
 
+### 0.5.0
+- Add more ore drills
+- Replace cliffs at point A with water
+    > This prevents Seige Choppers from getting very strong positions there
+- Removed various walls
+- Reworked AI reinforcement waves:
+    - Point A:
+        - Reduced delay for subsequent AI reinforcements on a curve, they will now spawn
+          progressively faster the longer the enemy holds the point
+        - AI reinforcements increased to veteran rank (final wave now elite rank)
+    - Point C:
+        - AI reinforcements added
+        - South will have slightly stronger and more frequent waves than North
+    - Point E:
+        - AI reinforcements added
+        - North will have slightly stronger and more frequent waves than South
+- Rearranged position of oil derricks and turrets in base area
+    > This will make the oils harder to snipe with chrono
+- Added additional gem patches to Points B and D
+- Reworked comeback mechanic (when Phase 1 Nexus is destroyed):
+    - Instant effect: 
+        - Money crates for every player on team and super mirage tanks
+          (increased damage and fire rate)
+    - Every `500` in-game seconds:
+        - Super mirage tanks for every player on team
+
 ### 0.4.0
 - Add a turret to protect each base
 - Fix double spy sat bug
