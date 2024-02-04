@@ -52,7 +52,7 @@ Name=AI Reinforcement 6
 Group=-1
 
 [01000099]
-0=6,APOC
+0=5,APOC
 1=3,HTK
 Name=AI Reinforcement 7
 Group=-1
@@ -2569,7 +2569,7 @@ PlayerControl=no
 01000477=1,8,0,0
 
 [FA2spVersionControl]
-Version=2560
+Version=2602
 
 [ForcedOptions]
 chkRA2Mode=false
@@ -10667,4 +10667,4 @@ TooBigToFitUnderBridge=true
 AllowedToStartInMultiplayer=no
 
 [Digest]
-1=I1GlLp1p7PdnIyWPkYAh7LIuHVg=
+1=Rj7GbK6Dp5TRxuls0Bs+HpIPzX8=
