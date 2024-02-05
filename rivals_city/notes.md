@@ -1,5 +1,5 @@
 # Rivals City
-- Current version: `0.4.0`
+- Current version: `0.6.0`
 
 ## Info / Rules
 - 3v3
@@ -26,6 +26,22 @@
 
 
 ## Patch Notes
+### 0.6.0
+- Reduced total Nexus HP from `30000` to `28000`
+    > Make games a touch shorter
+- AI reinforcements improvements
+    - Relaxed AI pathing to prevent them from getting blocked/stuck
+    - AI forces will now attack Nexus after destroying their targeted Control Point node
+    - Fixed an issue where the AI units would get stuck near the control point when the
+      control point is friendly
+    - All AI controlled units are now immune to mind control
+    - Lowered cost/value so they don't contribute as much to unit promotion
+- Added water underneath control point structures to prevent building/moving there
+- Disabled superweapons
+- Control Points and each Nexus are now permanently revealed, even through gap
+  generators
+- Reduced cost/value of Control Point nodes (psychic amplifiers) so they don't
+  contribute as much to unit promotion
 
 ### 0.5.0
 - Add more ore drills
