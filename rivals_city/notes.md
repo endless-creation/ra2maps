@@ -26,6 +26,21 @@
 
 
 ## Patch Notes
+### 0.7.0
+- Map layout updates
+    - Between points B and C, and D and E:
+         - Removed some cliffs to allow for more movement and flanking
+           options
+         - Added ramps so the large cliff area is accessible
+    - Points B and D now have an additional ramp entrance
+    - The machine shop raised cliff area has been removed to make this area more
+      vulnerable to attack
+- New mechanic: when a team controls all 5 points, the opposing team's nexus will start
+  taking additional damage. The opposing team just needs to capture 1 or more points to
+  stop the additional damage
+    > This is meant to bring a faster end to games that have snowballed out of control.
+    > GG go next
+
 ### 0.6.0
 - Reduced total Nexus HP from `30000` to `28000`
     > Make games a touch shorter
